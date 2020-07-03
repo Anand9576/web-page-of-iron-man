@@ -1,0 +1,115 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 10 Jun, 2020, 9:48:12 PM
+    Author     : hp
+*/
+
+body {
+    max-width:1000px;
+    margin:auto;
+    font-family:Roboto;
+    font-size:16px;
+        color:darkgreen;
+    background-color: lightblue
+}
+h4{font: italic bolder 28px algerian}
+
+
+.list_box{
+
+    width:100%;
+
+    overflow:hidden;
+
+}
+#image{ float:right;
+        padding:0px 20px 20px 0px;
+}
+#identity{overflow:auto;
+}
+#background-image{
+    background-image: url("https://terrigen-cdn-dev.marvel.com/content/prod/1x/ironman3_lob_mas_hlf_01_2.jpg");
+    height: 350px;
+    padding-top: 50px;
+    color: #fff;
+    margin-top: 25px
+}
+#content{
+    background-color: rgba(0, 0, 0, 0.7);
+        max-width: 450px;
+        padding: 30px 20px;
+        margin-top: 50px;
+}
+.thumbnail {
+    display: inline-block;
+
+    height: 350px;
+
+    padding: 4px;
+
+    margin-bottom: 20px;
+
+    background-color: #fff;
+
+    border: 1px solid #a4a4a4;
+
+    text-align: center;
+
+    color: #666;
+
+    margin: 50px;
+
+}
+table{
+    border: 2px solid;
+    border-color: black;
+    width: 100%;
+    border-collapse:collapse;
+}
+th, td{
+    padding:15px;
+    border: 1px solid #a4a4a4;
+    height: 30px;
+}
+th{
+    text-alignment:left;
+    background-color: #ececec;
+}
+.bullet{
+    list-style-type:none;
+    padding:0;
+    margin:0;
+    
+}
+li a{
+    display: block;
+    color: #666;
+    padding: 14px 16px;
+    text-color-decoration: none;
+    float: right;
+}
+.logo{
+    float: left;
+    height: 50px;
+}
+#header{
+    padding: 5px 0px;
+    border-bottom: 1px solid;
+}
+input
+{ padding: 14px 70px;
+  font-size: 15px;
+  margin-bottom: 30px;
+} 
+#subscribe
+{ border: none;
+  background-color: darkred;
+  color: white;
+  font-size: 16px;
+  margin: 4px -4px;
+  padding: 16px 40px;
+} 
